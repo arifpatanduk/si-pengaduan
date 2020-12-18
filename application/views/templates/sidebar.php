@@ -86,19 +86,19 @@
 
         <li class="nav-item">
             <a class="nav-link" href="<?= base_url('masyarakat'); ?>">
-                <i class="fas fa-fw fa-tachometer-alt"></i>
+                <i class="fa fa-tachometer" aria-hidden="true"></i>
                 <span>Form Pengaduan</span></a>
         </li>
 
         <li class="nav-item">
             <a class="nav-link" href="<?= base_url('masyarakat/list'); ?>">
-                <i class="fas fa-fw fa-tachometer-alt"></i>
+                <i class="fa fa-tachometer" aria-hidden="true"></i>
                 <span>List Pengaduan</span></a>
         </li>
 
         <li class="nav-item">
             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePengaturan" aria-expanded="true" aria-controls="collapseTwo">
-                <i class="fas fa-fw fa-cog"></i>
+                <i class="fa fa-cog" aria-hidden="true"></i>
                 <span>Pengaturan</span>
             </a>
             <div id="collapsePengaturan" class="collapse" aria-labelledby="HeadingPengaturan" data-parent="#accordionSidebar">
